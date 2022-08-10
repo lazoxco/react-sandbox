@@ -1,7 +1,10 @@
+import UseRefExample1 from './components/UseRefExample1';
+import UseRefExample2 from './components/UseRefExample2';
+
 function App() {
   return (
-    <div className='App'>
-      <h1>Hello world</h1>
+    <div className='container mt-5'>
+      <UseRefExample2 />
     </div>
   );
 }
